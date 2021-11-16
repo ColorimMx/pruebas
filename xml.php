@@ -69,9 +69,70 @@ function crear(){
     $cTraslado->setAttribute('TasaOCuota','0.160000');
     $cTraslado->setAttribute('TipoFactor','Tasa');
 
+    $concepto = $xml->createElement('cfdi:Concepto');
+    $concepto = $conceptos->appendChild($concepto);
+    $concepto->setAttribute('Cantidad','1.00000');
+    $concepto->setAttribute('ClaveProdServ','60121804');
+    $concepto->setAttribute('ClaveUnidad','H87');
+    $concepto->setAttribute('Descripcion','CITOCOL PASTILLA AZUL ACIANO 26');
+    $concepto->setAttribute('Importe','38.70');
+    $concepto->setAttribute('NoIdentificacion','2020010026');
+    $concepto->setAttribute('Unidad','PIEZAS');
+    $concepto->setAttribute('ValorUnitario','38.7000');
+
+    $cImpuestos = $xml->createElement('cfdi:Impuestos');
+    $cImpuestos = $concepto->appendChild($cImpuestos);
+
+    $cTraslados = $xml->createElement('cfdi:Traslados');
+    $cTraslados = $cImpuestos->appendChild($cTraslados);
+
+    $cTraslado = $xml->createElement('cfdi:Traslado');
+    $cTraslado = $cTraslados->appendChild($cTraslado);
+    $cTraslado->setAttribute('Base','38.70');
+    $cTraslado->setAttribute('Importe','6.192');
+    $cTraslado->setAttribute('Impuesto','002');
+    $cTraslado->setAttribute('TasaOCuota','0.160000');
+    $cTraslado->setAttribute('TipoFactor','Tasa');
+
+    $concepto = $xml->createElement('cfdi:Concepto');
+    $concepto = $conceptos->appendChild($concepto);
+    $concepto->setAttribute('Cantidad','3.00000');
+    $concepto->setAttribute('ClaveProdServ','60121804');
+    $concepto->setAttribute('ClaveUnidad','H87');
+    $concepto->setAttribute('Descripcion','CITOCOL PASTILLA CREMA 12');
+    $concepto->setAttribute('Importe','116.10');
+    $concepto->setAttribute('NoIdentificacion','2020010012');
+    $concepto->setAttribute('Unidad','PIEZAS');
+    $concepto->setAttribute('ValorUnitario','38.7000');
+
+    $cImpuestos = $xml->createElement('cfdi:Impuestos');
+    $cImpuestos = $concepto->appendChild($cImpuestos);
+
+    $cTraslados = $xml->createElement('cfdi:Traslados');
+    $cTraslados = $cImpuestos->appendChild($cTraslados);
+
+    $cTraslado = $xml->createElement('cfdi:Traslado');
+    $cTraslado = $cTraslados->appendChild($cTraslado);
+    $cTraslado->setAttribute('Base','116.10');
+    $cTraslado->setAttribute('Importe','18.576');
+    $cTraslado->setAttribute('Impuesto','002');
+    $cTraslado->setAttribute('TasaOCuota','0.160000');
+    $cTraslado->setAttribute('TipoFactor','Tasa');
 
     $impuestos = $xml->createElement('cfdi:Impuestos');
     $impuestos = $comprobante->appendChild($impuestos);
+    $impuestos->setAttribute('TotalImpuestosTrasladados','30.96');
+
+    $traslados = $xml->createElement('cfdi:Traslados');
+    $traslados = $impuestos->appendChild($traslados);
+
+    $traslado = $xml->createElement('cfdi:Traslado');
+    $traslado = $traslados->appendChild($traslado);
+    $traslado->setAttribute('Importe','30.96');
+    $traslado->setAttribute('Impuesto','002');
+    $traslado->setAttribute('TasaOCuota','0.160000');
+    $traslado->setAttribute('TipoFactor','Tasa');
+
 
     $complemento = $xml->createElement('cfdi:Complementos');
     $complemento = $comprobante->appendChild($complemento);
