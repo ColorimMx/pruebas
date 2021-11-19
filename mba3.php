@@ -17,13 +17,15 @@ class Mba3
             $this->con = new PDO($this->dsn,$this->usr,$this->pass);
             $this->con->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-            return $this->con;
+            //return $this->con;
+            echo "Conexión Exitosa";
 
         }
         catch (PDOException $e)
         {
             echo "Hay algún problema en la conexión: ".$e->getMessage();
         }
+
     }
 
     public function closeMba3() {
