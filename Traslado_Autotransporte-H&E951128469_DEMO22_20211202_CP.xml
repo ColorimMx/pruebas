@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cartaporte20="http://www.sat.gob.mx/CartaPorte20" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd http://www.sat.gob.mx/CartaPorte20 http://www.sat.gob.mx/sitio_internet/cfd/CartaPorte/CartaPorte20.xsd" Version="3.3" Serie="DEMO" Folio="22" Fecha="2021-12-02T16:45:55" Sello="bBVGxJWoyShCtmRVBLO1XU2yC9g4EJvVNYke9H2JaW6cK6L09VxE46DkXF0NdaYWvvt0c/Ws8RCFEyN36VCq8BWlPFp7TW1dJO7O/dJ5svMTYxCQIt8xR7XK5J91EF2x4ClrhjF62Ft6oQLk6Xe0aCHaJkmRwB5tISsOokdlZtxBdl7HDg2Xp21b/yc/rwffYuax70Y/ndUgChzMOMD0f1vTzmibQCcYNXjEcLZc+EvnMiAGPglSnG03W752Ev9nYdfIGXaW9b2L4kAeQk4F3P//aH8Skf+t2JjuyE+gJInWZFoZMZksv7ahmVyPUTt3oyQniRIt1ugRm8vAbBxJSw==" NoCertificado="30001000000400002463" Certificado="MIIFwTCCA6mgAwIBAgIUMzAwMDEwMDAwMDA0MDAwMDI0NjMwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWRpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMTkwNjIwMjA1NTA4WhcNMjMwNjIwMjA1NTA4WjCB6DEmMCQGA1UEAxQdSEVSUkVSSUEgJiBFTEVDVFJJQ09TIFMgREUgQ1YxJjAkBgNVBCkUHUhFUlJFUklBICYgRUxFQ1RSSUNPUyBTIERFIENWMSYwJAYDVQQKFB1IRVJSRVJJQSAmIEVMRUNUUklDT1MgUyBERSBDVjElMCMGA1UELRQcSCZFOTUxMTI4NDY5IC8gWE9KSTc0MDkxOVU0ODEeMBwGA1UEBRMVIC8gWE9KSTc0MDkxOU1RVERNTjAyMScwJQYDVQQLFB5IRVJSRVJJQSAmIEVMRUNUUklDT1MgU0EgREUgQ1YwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDoNWRICH7Ja/IR0sFzGAoveKzFT94BJ4Wlh7MsePe50azvre4j6CYEItQ5jCkxZyYHT23dfONpUWDN7+Bx7j9QjKPwqr+zJjFrla/hD4fj63LeUmofVR7TjeDLLEwCSsn1k3vLae4WBgsV1jNc3M87ZYOHpe0XXLVw/25nSyqQS5l4HTJrw7wQ3NZAXghG38NIOUYJZsE/6K3OAslVoF/YregQ0UqodFLyA6BBMcfll8rjMIWtCy2DxZ0T5QCPX3OccWzB9hHvP5PAjUiOf+FpKHW8WPGEywoC1vM3nvsHXTp2MkUn78U5PK/hmc/7chqaneZHA066AIRs3zGHkHTjAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQCsaJpin0RAOsyxBMQRpfTM47k+a1QlHHsP2vEubuINZE+3Hp4b/C1w1gGe8+l8EJcLxQfQ0ovlvKDdYFJLleBCkt9eoFY92keaL77Teq6YxzQ8jArI1WSz75KkljzHYbtm4Oy+hsmpla4L51VnhRfyqehfAgZEDRHytpOPVzxIQnnDx/GI2KVlUBvInOS50dBoCnq5sxzQ+Ha1nsPMvrdTaHBRjto4kOL9SkHvZDVZHWnJ1R7w+1n0zXmDV27BUNsHQNaDG8e+5uGex7d/Bfolf3dU2y4YVFN9DOP8ge0J7ryIuRB7eESwT3aEM/0gec41vMOfVmR2mzNeX0q8czU0xjMH+NKSdgkNFAvoMk2uIsGePkbQDdk3XW1h6f3HGRQ85mkPh/Zt4kqbc0CzFsQMGdj8eixm8jRazSoCdndSDXrDwSTkVaqTuYqRxy89NWNk4dbXXqw4a52DKR1oYR0r9AVjHTfK936tRvNhxQ4KHGjPUi0ttxoCw1fogKwf2MRkTZMO0EZrEnODKl3CMoi4IXuWpNYY6MhUCjLRWJF/mOclkpCzNpyNbwJiGTshTEDvfqS1PsIuXgjIzbCa3seRzP6yxsd0CfEI7lUxMvYT6r0wqRXsymO6mOywWQKRFnrZmzD1zSMRap7vhED+plAxUgouQFbfv1NDkqAfF57FFA==" SubTotal="0" Moneda="XXX" Total="0" TipoDeComprobante="T" LugarExpedicion="06300">
+  <cfdi:Emisor Rfc="H&amp;E951128469" Nombre="LA ITALIANA, S.A. DE C.V." RegimenFiscal="601" />
+  <cfdi:Receptor Rfc="H&amp;E951128469" Nombre="GOYA DE PUERTO RICO INC" UsoCFDI="P01" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="10151608" NoIdentificacion="A1" Cantidad="1" ClaveUnidad="C62" Unidad="pz" Descripcion="Cuerpos sólidos de metal" ValorUnitario="1000" Importe="1000" />
+  </cfdi:Conceptos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="E92F8953-CD2A-4937-B44F-E592F90E21A5" FechaTimbrado="2021-12-02T16:51:07" RfcProvCertif="SPR190613I52" SelloCFD="bBVGxJWoyShCtmRVBLO1XU2yC9g4EJvVNYke9H2JaW6cK6L09VxE46DkXF0NdaYWvvt0c/Ws8RCFEyN36VCq8BWlPFp7TW1dJO7O/dJ5svMTYxCQIt8xR7XK5J91EF2x4ClrhjF62Ft6oQLk6Xe0aCHaJkmRwB5tISsOokdlZtxBdl7HDg2Xp21b/yc/rwffYuax70Y/ndUgChzMOMD0f1vTzmibQCcYNXjEcLZc+EvnMiAGPglSnG03W752Ev9nYdfIGXaW9b2L4kAeQk4F3P//aH8Skf+t2JjuyE+gJInWZFoZMZksv7ahmVyPUTt3oyQniRIt1ugRm8vAbBxJSw==" NoCertificadoSAT="30001000000400002495" SelloSAT="S/n6m20itxpeOpE5myi+WtwNHLV5jmC1V5snis2swZOiZGoSRyf+vv/FJCQZrYH8vlNRuVzLL6GDJRtqwTaISWyL/KWFzzgW82tqiZZyNWUKE1xg5Y32Zicm/BmvQqn6LSphk28fMBsboOgOcYBznW09MHUeanyZLktaGU2ZU3BwM3K83YLUrarjjQAu4TgeAKsAqESKyXUf1Pd+IWDSHAnYFOMzEmopatQyICq2w0ZNHh5ZhT/ZkKD7Sq170IK2yZbkhvLvAe/bQBlMHI0BWsLzbLPbEFJGIo82eSXbUsG/81Q4GJU8cXdu72qBlywbLRh0jB/noitvsqQ+qOgECA==" />
+    <cartaporte20:CartaPorte Version="2.0" TranspInternac="No" TotalDistRec="100">
+      <cartaporte20:Ubicaciones>
+        <cartaporte20:Ubicacion TipoUbicacion="Origen" IDUbicacion="OR123456" RFCRemitenteDestinatario="EKU9003173C9" NombreRemitenteDestinatario="Ron Damon" FechaHoraSalidaLlegada="2020-12-02T12:30:00">
+          <cartaporte20:Domicilio Calle="Independencia" NumeroExterior="22" NumeroInterior="33" Colonia="2805" Localidad="12" Referencia="A dos cuadras de" Municipio="118" Estado="VER" Pais="MEX" CodigoPostal="94300" />
+        </cartaporte20:Ubicacion>
+        <cartaporte20:Ubicacion TipoUbicacion="Destino" IDUbicacion="DE123456" RFCRemitenteDestinatario="EKU9003173C9" NombreRemitenteDestinatario="Señor Barriga" FechaHoraSalidaLlegada="2020-12-02T12:30:00" DistanciaRecorrida="100">
+          <cartaporte20:Domicilio Calle="Independencia" NumeroExterior="22" NumeroInterior="33" Colonia="2805" Localidad="12" Referencia="A dos cuadras de" Municipio="118" Estado="VER" Pais="MEX" CodigoPostal="94300" />
+        </cartaporte20:Ubicacion>
+      </cartaporte20:Ubicaciones>
+      <cartaporte20:Mercancias PesoBrutoTotal="100" UnidadPeso="XWH" NumTotalMercancias="1" CargoPorTasacion="1421.32">
+        <cartaporte20:Mercancia BienesTransp="10151608" Descripcion="Carnes procesadas y preparadas" Cantidad="800" ClaveUnidad="H87" Unidad="PIEZA" Dimensiones="30/40/30plg" MaterialPeligroso="Sí" CveMaterialPeligroso="0007" Embalaje="1A1" DescripEmbalaje="Bidones (Tambores) de Acero 1 de tapa no desmontable" PesoEnKg="100.000" ValorMercancia="25000" Moneda="MXN" UUIDComercioExt="AF6D60CA-7499-4986-AF41-44788E54A827">
+          <cartaporte20:CantidadTransporta Cantidad="1" IDOrigen="OR123456" IDDestino="DE123456" />
+        </cartaporte20:Mercancia>
+        <cartaporte20:Autotransporte PermSCT="TPAF02" NumPermisoSCT="ABCDEFG4525648">
+          <cartaporte20:IdentificacionVehicular ConfigVehicular="VL" PlacaVM="IRKFOAZ" AnioModeloVM="2021" />
+          <cartaporte20:Seguros AseguraRespCivil="PFG Seguros S.A. de C.V." PolizaRespCivil="101010" AseguraMedAmbiente="Olimpo" PolizaMedAmbiente="778899" AseguraCarga="La Villa" PolizaCarga="112233" PrimaSeguro="5000" />
+          <cartaporte20:Remolques>
+            <cartaporte20:Remolque SubTipoRem="CTR004" Placa="12345" />
+          </cartaporte20:Remolques>
+        </cartaporte20:Autotransporte>
+      </cartaporte20:Mercancias>
+      <cartaporte20:FiguraTransporte>
+        <cartaporte20:TiposFigura TipoFigura="01" RFCFigura="EKU9003173C9" NumLicencia="20211108" NombreFigura="Tom Hanks" />
+      </cartaporte20:FiguraTransporte>
+    </cartaporte20:CartaPorte>
+  </cfdi:Complemento>
+  <cfdi:Addenda>
+    <si:Encabezado xmlns:si="https://cfd.sifei.com.mx/publicar" schemaLocation="https://cfd.sifei.com.mx/publicar https://cfd.sifei.com.mx/publicar/DocumentoSifei.xsd" MuestraIEPS="NO" Origen="CFDi Premium 11.5.0.0" />
+  </cfdi:Addenda>
+</cfdi:Comprobante>
