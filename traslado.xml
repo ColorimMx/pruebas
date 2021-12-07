@@ -3,6 +3,6 @@
   <cfdi:Emisor Rfc="CIM581206CI9" Nombre="COLORANTES IMPORTADOS SA DE CV" RegimenFiscal="601"/>
   <cfdi:Receptor Rfc="CIM581206CI9" Nombre="COLORANTES IMPORTADOS SA DE CV" UsoCFDI="P01"/>
   <cfdi:Conceptos>
-    <cfdi:Concepto ClaveProdServ="60121804" NoIdentificacion="2020010043" Cantidad="1.00000" ClaveUnidad="H87" ValorUnitario="38.7000" Importe="38.70"/>
+    <cfdi:Concepto ClaveProdServ="60121804" NoIdentificacion="2020010043" Cantidad="1.00000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="CITOCOL PASTILLA AZUL BLUE 43" ValorUnitario="38.7000" Importe="38.70"/>
   </cfdi:Conceptos>
 </cfdi:Comprobante>

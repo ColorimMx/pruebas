@@ -49,6 +49,8 @@ function crear(){
     $concepto->setAttribute('NoIdentificacion','2020010043');
     $concepto->setAttribute('Cantidad','1.00000');
     $concepto->setAttribute('ClaveUnidad','H87');
+    $concepto->setAttribute('Unidad','PIEZAS');
+    $concepto->setAttribute('Descripcion','CITOCOL PASTILLA AZUL BLUE 43');
     $concepto->setAttribute('ValorUnitario','38.7000');
     $concepto->setAttribute('Importe','38.70');
 
